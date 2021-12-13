@@ -1,0 +1,8 @@
+//formato JSON da inviare al server
+{ "auth":{ "ute": "uuu", "pwd": "ppp" }
+  "status": { "ddd": "vvv", "ddd": "vvv", "ddd": "vvv" } }
+
+uuu => codice utente
+ppp => la password
+ddd => codice della lampada (NV_S, ...)
+vvv => stato della lampada (ON, OFF)
